@@ -8,37 +8,37 @@ const ProductsCarousel: React.FC = () => {
       id: 1,
       title: 'Retrovisores Completos',
       description: 'Retrovisores novos para diversos modelos de veículos',
-      image: '/images/product1.jpg'
+      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 2,
       title: 'Lentes de Retrovisores',
       description: 'Lentes de alta qualidade com opções de cores e acabamentos',
-      image: '/images/product2.jpg'
+      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 3,
       title: 'Capas de Retrovisores',
       description: 'Capas de reposição para proteção e estética',
-      image: '/images/product3.jpg'
+      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 4,
       title: 'Manutenção de Retrovisores',
       description: 'Serviço especializado de reparo e manutenção',
-      image: '/images/service1.jpg'
+      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 5,
       title: 'Instalação Profissional',
       description: 'Instalação com garantia e acabamento perfeito',
-      image: '/images/service2.jpg'
+      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 6,
       title: 'Pintura Personalizada',
       description: 'Serviço de pintura na cor do seu veículo',
-      image: '/images/service3.jpg'
+      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
     }
   ];
 
@@ -62,10 +62,18 @@ const ProductsCarousel: React.FC = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white rounded-lg shadow-md overflow-hidden"
             >
-              <div className="h-48 bg-gray-300 flex items-center justify-center">
-                <div className="text-center p-4">
-                  <span className="text-gray-600">Imagem do produto/serviço</span>
-                </div>
+              {/* Alterado para usar a tag img com o caminho da imagem do produto */}
+              <div className="h-48 bg-gray-200 flex items-center justify-center overflow-hidden"> {/* Fundo cinza claro como fallback */}
+                <img 
+                  src={product.image} 
+                  alt={product.title} 
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
+                  onError={(e) => { 
+                    // Opcional: Em caso de erro ao carregar a imagem (ex: 404), pode-se esconder a tag img ou mostrar um placeholder
+                    (e.target as HTMLImageElement).style.display = 'none'; 
+                    // Ou trocar o src por um placeholder genérico: (e.target as HTMLImageElement).src = '/images/placeholder-generico.png';
+                  }}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-dark mb-2">{product.title}</h3>
@@ -86,3 +94,4 @@ const ProductsCarousel: React.FC = () => {
 };
 
 export default ProductsCarousel;
+

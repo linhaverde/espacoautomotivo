@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../components/layout/Header'; // Importa o Header
+import Footer from '../components/layout/Footer'; // Importa o Footer
 import { motion } from 'framer-motion';
 
 const ServicesPage: React.FC = () => {
@@ -67,117 +69,122 @@ const ServicesPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-light">
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-dark mb-4">Nossos Serviços</h1>
-            <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Oferecemos uma ampla gama de serviços especializados em retrovisores veiculares, com qualidade e compromisso.
-            </p>
-          </div>
+    <div className="min-h-screen flex flex-col bg-gray-light"> {/* Adiciona flex flex-col */}
+      <Header /> {/* Adiciona o Header */}
+      <main className="flex-grow"> {/* Adiciona main e flex-grow */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h1 className="text-4xl font-bold text-gray-dark mb-4">Nossos Serviços</h1>
+              <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Oferecemos uma ampla gama de serviços especializados em retrovisores veiculares, com qualidade e compromisso.
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {services.map((service, index) => (
+                <motion.div
+                  key={service.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="bg-gray-light rounded-lg p-6"
+                >
+                  <div className="flex justify-center mb-4">
+                    {service.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-dark mb-2 text-center">{service.title}</h3>
+                  <p className="text-gray-600 text-center">{service.description}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 bg-gray-light">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-dark mb-4">Como Funciona Nosso Atendimento</h2>
+              <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <motion.div
-                key={service.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-gray-light rounded-lg p-6"
+                transition={{ duration: 0.5 }}
+                className="bg-white p-6 rounded-lg shadow-md text-center"
               >
-                <div className="flex justify-center mb-4">
-                  {service.icon}
-                </div>
-                <h3 className="text-xl font-bold text-gray-dark mb-2 text-center">{service.title}</h3>
-                <p className="text-gray-600 text-center">{service.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-light">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-dark mb-4">Como Funciona Nosso Atendimento</h2>
-            <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="bg-white p-6 rounded-lg shadow-md text-center"
-            >
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">1</div>
-              <h3 className="text-xl font-bold text-gray-dark mb-2">Diagnóstico</h3>
-              <p className="text-gray-600">
-                Realizamos uma avaliação detalhada do seu retrovisor para identificar o problema e propor a melhor solução.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-white p-6 rounded-lg shadow-md text-center"
-            >
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">2</div>
-              <h3 className="text-xl font-bold text-gray-dark mb-2">Orçamento</h3>
-              <p className="text-gray-600">
-                Apresentamos um orçamento transparente e detalhado, sem surpresas ou custos adicionais.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="bg-white p-6 rounded-lg shadow-md text-center"
-            >
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">3</div>
-              <h3 className="text-xl font-bold text-gray-dark mb-2">Execução</h3>
-              <p className="text-gray-600">
-                Realizamos o serviço com agilidade e qualidade, utilizando peças de primeira linha e técnicas avançadas.
-              </p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="bg-primary-dark rounded-lg shadow-lg overflow-hidden">
-            <div className="p-8 md:p-12">
-              <div className="text-center text-white mb-8">
-                <h2 className="text-3xl font-bold mb-4">Precisa de um orçamento?</h2>
-                <p className="text-xl">
-                  Entre em contato conosco e solicite um orçamento sem compromisso.
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">1</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-2">Diagnóstico</h3>
+                <p className="text-gray-600">
+                  Realizamos uma avaliação detalhada do seu retrovisor para identificar o problema e propor a melhor solução.
                 </p>
-              </div>
-              <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-                <a
-                  href="/contato"
-                  className="bg-white text-primary-dark hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 text-center"
-                >
-                  Solicitar Orçamento
-                </a>
-                <a
-                  href="tel:3134868347"
-                  className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-dark font-bold py-3 px-6 rounded-lg transition duration-300 text-center"
-                >
-                  Ligar Agora: (31) 3486-8347
-                </a>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="bg-white p-6 rounded-lg shadow-md text-center"
+              >
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">2</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-2">Orçamento</h3>
+                <p className="text-gray-600">
+                  Apresentamos um orçamento transparente e detalhado, sem surpresas ou custos adicionais.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="bg-white p-6 rounded-lg shadow-md text-center"
+              >
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">3</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-2">Execução</h3>
+                <p className="text-gray-600">
+                  Realizamos o serviço com agilidade e qualidade, utilizando peças de primeira linha e técnicas avançadas.
+                </p>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="bg-primary-dark rounded-lg shadow-lg overflow-hidden">
+              <div className="p-8 md:p-12">
+                <div className="text-center text-white mb-8">
+                  <h2 className="text-3xl font-bold mb-4">Precisa de um orçamento?</h2>
+                  <p className="text-xl">
+                    Entre em contato conosco e solicite um orçamento sem compromisso.
+                  </p>
+                </div>
+                <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
+                  <a
+                    href="/contato"
+                    className="bg-white text-primary-dark hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 text-center"
+                  >
+                    Solicitar Orçamento
+                  </a>
+                  <a
+                    href="tel:3134868347"
+                    className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-dark font-bold py-3 px-6 rounded-lg transition duration-300 text-center"
+                  >
+                    Ligar Agora: (31) 3486-8347
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
+      <Footer /> {/* Adiciona o Footer */}
     </div>
   );
 };
 
 export default ServicesPage;
+
