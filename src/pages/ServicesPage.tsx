@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from '../components/layout/Header'; // Importa o Header
-import Footer from '../components/layout/Footer'; // Importa o Footer
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const ServicesPage: React.FC = () => {
   const services = [
@@ -69,16 +70,23 @@ const ServicesPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-light"> {/* Adiciona flex flex-col */}
-      <Header /> {/* Adiciona o Header */}
-      <main className="flex-grow"> {/* Adiciona main e flex-grow */}
+    <div className="min-h-screen flex flex-col bg-gray-light">
+      <SEO 
+        title="Serviços de Retrovisores | Espaço Automotivo em Belo Horizonte"
+        description="Serviços especializados em retrovisores veiculares em Belo Horizonte: troca, reparo, substituição de lentes, pintura e instalação de retrovisores elétricos."
+        keywords="serviços de retrovisores, troca de retrovisores, reparo de retrovisores, Belo Horizonte, Cidade Nova, retrovisores elétricos"
+        ogUrl="https://espacoautomotivo.vercel.app/servicos"
+        canonical="https://espacoautomotivo.vercel.app/servicos"
+      />
+      <Header />
+      <main className="flex-grow" id="main-content">
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-gray-dark mb-4">Nossos Serviços</h1>
+              <h1 className="text-4xl font-bold text-gray-dark mb-4">Serviços de Retrovisores em Belo Horizonte</h1>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Oferecemos uma ampla gama de serviços especializados em retrovisores veiculares, com qualidade e compromisso.
+                Oferecemos uma ampla gama de serviços especializados em retrovisores veiculares na região de Belo Horizonte, com qualidade e compromisso.
               </p>
             </div>
 
@@ -105,7 +113,7 @@ const ServicesPage: React.FC = () => {
         <section className="py-16 bg-gray-light">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-dark mb-4">Como Funciona Nosso Atendimento</h2>
+              <h2 className="text-3xl font-bold text-gray-dark mb-4">Como Funciona Nosso Atendimento em Belo Horizonte</h2>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
             </div>
 
@@ -157,7 +165,7 @@ const ServicesPage: React.FC = () => {
             <div className="bg-primary-dark rounded-lg shadow-lg overflow-hidden">
               <div className="p-8 md:p-12">
                 <div className="text-center text-white mb-8">
-                  <h2 className="text-3xl font-bold mb-4">Precisa de um orçamento?</h2>
+                  <h2 className="text-3xl font-bold mb-4">Precisa de um orçamento em Belo Horizonte?</h2>
                   <p className="text-xl">
                     Entre em contato conosco e solicite um orçamento sem compromisso.
                   </p>
@@ -181,10 +189,9 @@ const ServicesPage: React.FC = () => {
           </div>
         </section>
       </main>
-      <Footer /> {/* Adiciona o Footer */}
+      <Footer />
     </div>
   );
 };
 
 export default ServicesPage;
-

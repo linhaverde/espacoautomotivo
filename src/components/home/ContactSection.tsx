@@ -6,10 +6,10 @@ const ContactSection: React.FC = () => {
     <section className="py-16 bg-gray-light">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-dark mb-4">Entre em Contato</h2>
+          <h2 className="text-3xl font-bold text-gray-dark mb-4">Entre em Contato com o Espaço Automotivo em Belo Horizonte</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Estamos à disposição para atender suas necessidades. Entre em contato conosco!
+            Estamos à disposição para atender suas necessidades em retrovisores veiculares na região de Belo Horizonte. Entre em contato conosco!
           </p>
         </div>
 
@@ -20,7 +20,7 @@ const ContactSection: React.FC = () => {
             transition={{ duration: 0.5 }}
             className="bg-white rounded-lg shadow-md p-8"
           >
-            <h3 className="text-2xl font-bold text-gray-dark mb-4">Informações de Contato</h3>
+            <h3 className="text-2xl font-bold text-gray-dark mb-4">Informações de Contato em Belo Horizonte</h3>
             <div className="space-y-4">
               <div className="flex items-start">
                 <svg className="w-6 h-6 text-primary mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,8 +37,8 @@ const ContactSection: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <div>
-                  <h4 className="font-bold text-gray-dark">Endereço</h4>
-                  <p className="text-gray-600">Av. Cristiano Machado, Cidade Nova</p>
+                  <h4 className="font-bold text-gray-dark">Endereço em Belo Horizonte</h4>
+                  <p className="text-gray-600">Av. Cristiano Machado, 2650, Cidade Nova</p>
                   <p className="text-gray-600">Belo Horizonte - MG</p>
                 </div>
               </div>
@@ -51,6 +51,10 @@ const ContactSection: React.FC = () => {
                   <p className="text-gray-600">Segunda a Sexta: 8h às 18h</p>
                   <p className="text-gray-600">Sábado: 8h às 12h</p>
                 </div>
+              </div>
+              <div className="mt-4">
+                <h4 className="font-bold text-gray-dark">Áreas Atendidas</h4>
+                <p className="text-gray-600">Belo Horizonte, Cidade Nova, Contagem, Betim e região metropolitana</p>
               </div>
             </div>
           </motion.div>

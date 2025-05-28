@@ -8,12 +8,12 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Informações de Contato */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Contato</h3>
+            <h3 className="text-xl font-bold mb-4">Contato em Belo Horizonte</h3>
             <p className="mb-2">
               <span className="font-bold">Telefone:</span> (31) 3486-8347
             </p>
             <p className="mb-2">
-              <span className="font-bold">Endereço:</span> Av. Cristiano Machado, Cidade Nova - Belo Horizonte/MG
+              <span className="font-bold">Endereço:</span> Av. Cristiano Machado, 2650, Cidade Nova - Belo Horizonte/MG
             </p>
             <p className="mb-2">
               <span className="font-bold">Horário:</span> Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h
@@ -28,26 +28,30 @@ const Footer: React.FC = () => {
                 <a href="/" className="hover:text-primary transition duration-300">Início</a>
               </li>
               <li>
-                <a href="/servicos" className="hover:text-primary transition duration-300">Serviços</a>
+                <a href="/servicos" className="hover:text-primary transition duration-300">Serviços de Retrovisores</a>
               </li>
               <li>
-                <a href="/produtos" className="hover:text-primary transition duration-300">Produtos</a>
+                <a href="/produtos" className="hover:text-primary transition duration-300">Produtos para Retrovisores</a>
               </li>
               <li>
-                <a href="/sobre" className="hover:text-primary transition duration-300">Sobre Nós</a>
+                <a href="/sobre" className="hover:text-primary transition duration-300">Sobre Nossa Empresa</a>
               </li>
               <li>
-                <a href="/contato" className="hover:text-primary transition duration-300">Contato</a>
+                <a href="/contato" className="hover:text-primary transition duration-300">Contato em Belo Horizonte</a>
               </li>
             </ul>
           </div>
 
           {/* Sobre a Empresa */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Espaço Automotivo Retrovisores</h3>
+            <h3 className="text-xl font-bold mb-4">Espaço Automotivo Retrovisores em Belo Horizonte</h3>
             <p className="mb-4">
-              Especialistas em retrovisores veiculares, oferecendo serviços de manutenção e venda de peças com qualidade e compromisso.
+              Especialistas em retrovisores veiculares em Belo Horizonte, oferecendo serviços de manutenção e venda de peças com qualidade e compromisso para toda a região metropolitana.
             </p>
+            <div className="mt-4 mb-4">
+              <h4 className="font-bold mb-2">Áreas Atendidas:</h4>
+              <p>Belo Horizonte, Cidade Nova, Contagem, Betim, Santa Luzia e região metropolitana</p>
+            </div>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-primary transition duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +73,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Espaço Automotivo Retrovisores. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Espaço Automotivo Retrovisores - Belo Horizonte. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

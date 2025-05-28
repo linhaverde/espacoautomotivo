@@ -46,3 +46,19 @@ code {
 .slick-next:before {
   color: #FF0000;
 }
+
+/* Estilos para o skip link de acessibilidade */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #e63946;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
