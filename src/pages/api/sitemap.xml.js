@@ -1,0 +1,37 @@
+export default function handler(req, res) {
+  res.setHeader('Content-Type', 'application/xml');
+  res.write('<?xml version="1.0" encoding="UTF-8"?>');
+  res.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
+  res.write('<url>');
+  res.write('<loc>https://espacoautomotivo.vercel.app/</loc>');
+  res.write('<lastmod>2025-05-28</lastmod>');
+  res.write('<changefreq>weekly</changefreq>');
+  res.write('<priority>1.0</priority>');
+  res.write('</url>');
+  res.write('<url>');
+  res.write('<loc>https://espacoautomotivo.vercel.app/servicos</loc>');
+  res.write('<lastmod>2025-05-28</lastmod>');
+  res.write('<changefreq>monthly</changefreq>');
+  res.write('<priority>0.8</priority>');
+  res.write('</url>');
+  res.write('<url>');
+  res.write('<loc>https://espacoautomotivo.vercel.app/produtos</loc>');
+  res.write('<lastmod>2025-05-28</lastmod>');
+  res.write('<changefreq>monthly</changefreq>');
+  res.write('<priority>0.8</priority>');
+  res.write('</url>');
+  res.write('<url>');
+  res.write('<loc>https://espacoautomotivo.vercel.app/sobre</loc>');
+  res.write('<lastmod>2025-05-28</lastmod>');
+  res.write('<changefreq>monthly</changefreq>');
+  res.write('<priority>0.7</priority>');
+  res.write('</url>');
+  res.write('<url>');
+  res.write('<loc>https://espacoautomotivo.vercel.app/contato</loc>');
+  res.write('<lastmod>2025-05-28</lastmod>');
+  res.write('<changefreq>monthly</changefreq>');
+  res.write('<priority>0.7</priority>');
+  res.write('</url>');
+  res.write('</urlset>');
+  res.end();
+}
