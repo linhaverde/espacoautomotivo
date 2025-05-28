@@ -47,8 +47,7 @@ const AboutPage: React.FC = () => {
               >
                 {/* Placeholder para imagem da loja */}
                 <div className="text-center p-4">
-                  {/* <img src="/images/loja.jpg" alt="Fachada da Loja Espaço Automotivo" className="max-h-full max-w-full object-contain rounded-lg"/> */}
-                  <span className="text-gray-600">Imagem da loja</span>
+                <img src="/images/loja.jpg" alt="Fachada da Loja Espaço Automotivo" className="max-h-full max-w-full object-contain rounded-lg"/>
                 </div>
               </motion.div>
             </div>

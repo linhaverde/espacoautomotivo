@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     <header className="bg-primary shadow-md">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+          <img src="/images/logo.png" alt="Espaço Automotivo" className="h-10" />
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-light text-2xl font-bold">Espaço Automotivo</span>
