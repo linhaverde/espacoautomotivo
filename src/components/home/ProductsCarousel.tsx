@@ -8,25 +8,25 @@ const ProductsCarousel: React.FC = () => {
       id: 1,
       title: 'Retrovisores Completos',
       description: 'Retrovisores novos para diversos modelos de veículos',
-      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (5).png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 2,
       title: 'Lentes de Retrovisores',
       description: 'Lentes de alta qualidade com opções de cores e acabamentos',
-      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (2).png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 3,
       title: 'Capas de Retrovisores',
       description: 'Capas de reposição para proteção e estética',
-      image: '/images/placeholder-produto.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (4).png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 4,
       title: 'Manutenção de Retrovisores',
       description: 'Serviço especializado de reparo e manutenção',
-      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (1).png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 5,
