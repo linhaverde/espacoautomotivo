@@ -10,7 +10,7 @@ const ProductsPage: React.FC = () => {
       title: 'Retrovisores Completos',
       description: 'Retrovisores novos para diversos modelos de veículos, com acabamento de alta qualidade e garantia.',
       categories: ['Todos', 'Retrovisores'],
-      imagePlaceholder: '/images/product1.jpg' // Caminho placeholder
+      imagePlaceholder: '/images/product1.png' // Caminho placeholder
     },
     {
       id: 2,
