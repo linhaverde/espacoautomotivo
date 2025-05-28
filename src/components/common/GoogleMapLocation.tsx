@@ -10,7 +10,7 @@ const GoogleMapLocation: React.FC = () => {
           width="100%"
           height="450"
           style={{ border: 0 }}
-          allowFullScreen=""
+          allowFullScreen={true}
           loading="lazy"
           title="Localização do Espaço Automotivo em Belo Horizonte"
           aria-label="Mapa mostrando a localização do Espaço Automotivo na Av. Cristiano Machado, Cidade Nova, Belo Horizonte"
