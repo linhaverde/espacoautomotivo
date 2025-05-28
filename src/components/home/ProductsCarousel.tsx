@@ -32,13 +32,13 @@ const ProductsCarousel: React.FC = () => {
       id: 5,
       title: 'Instalação Profissional',
       description: 'Instalação com garantia e acabamento perfeito',
-      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (6).png' // Caminho placeholder - Substituir por imagem real
     },
     {
       id: 6,
       title: 'Pintura Personalizada',
       description: 'Serviço de pintura na cor do seu veículo',
-      image: '/images/placeholder-servico.png' // Caminho placeholder - Substituir por imagem real
+      image: '/images/banner (7).png' // Caminho placeholder - Substituir por imagem real
     }
   ];
 
