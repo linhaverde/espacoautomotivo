@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               <span className="font-bold">Endereço:</span> Av. Cristiano Machado, 2650, Cidade Nova - Belo Horizonte/MG
             </p>
             <p className="mb-2">
-              <span className="font-bold">Horário:</span> Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h
+              <span className="font-bold">Horário:</span> Segunda a Sexta: 8:30h às 18h | Sábado: 8h:30 às 12h
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="mt-4 mb-4">
               <h4 className="font-bold mb-2">Áreas Atendidas:</h4>
-              <p>Belo Horizonte, Cidade Nova, Contagem, Betim, Santa Luzia e região metropolitana</p>
+              <p>Belo Horizonte, Contagem, Betim, Santa Luzia e região metropolitana</p>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-primary transition duration-300">

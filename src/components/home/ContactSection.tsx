@@ -48,13 +48,13 @@ const ContactSection: React.FC = () => {
                 </svg>
                 <div>
                   <h4 className="font-bold text-gray-dark">Horário de Funcionamento</h4>
-                  <p className="text-gray-600">Segunda a Sexta: 8h às 18h</p>
-                  <p className="text-gray-600">Sábado: 8h às 12h</p>
+                  <p className="text-gray-600">Segunda a Sexta: 8h:30 às 18h</p>
+                  <p className="text-gray-600">Sábado: 8h:30 às 12h</p>
                 </div>
               </div>
               <div className="mt-4">
                 <h4 className="font-bold text-gray-dark">Áreas Atendidas</h4>
-                <p className="text-gray-600">Belo Horizonte, Cidade Nova, Contagem, Betim e região metropolitana</p>
+                <p className="text-gray-600">Belo Horizonte, Santa Luzia, Sabará,Contagem, Betim e região metropolitana</p>
               </div>
             </div>
           </motion.div>

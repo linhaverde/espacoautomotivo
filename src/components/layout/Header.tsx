@@ -17,25 +17,25 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-light text-2xl font-bold">Espaço Automotivo</span>
-              <span className="text-light text-xl ml-2">Retrovisores BH</span>
+              <span className="text-light text-base ml-2">Retrovisores BH</span>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link to="/" className="text-white hover:text-gray-200 transition duration-300">
+            <Link to="/" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Início
             </Link>
-            <Link to="/servicos" className="text-white hover:text-gray-200 transition duration-300">
+            <Link to="/servicos" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Serviços em BH
             </Link>
-            <Link to="/produtos" className="text-white hover:text-gray-200 transition duration-300">
+            <Link to="/produtos" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Produtos
             </Link>
-            <Link to="/sobre" className="text-white hover:text-gray-200 transition duration-300">
+            <Link to="/sobre" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Sobre Nós
             </Link>
-            <Link to="/contato" className="text-white hover:text-gray-200 transition duration-300">
+            <Link to="/contato" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Contato
             </Link>
           </nav>
