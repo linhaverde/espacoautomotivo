@@ -17,7 +17,7 @@ const ProductsPage: React.FC = () => {
       title: 'Lentes de Retrovisores',
       description: 'Lentes de reposição com diversas opções de cores e acabamentos para personalizar seu veículo.',
       categories: ['Todos', 'Lentes'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product2.png' // Caminho placeholder
     },
     {
       id: 3,
