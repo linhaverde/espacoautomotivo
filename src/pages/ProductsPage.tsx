@@ -15,58 +15,58 @@ const ProductsPage: React.FC = () => {
     {
       id: 2,
       title: 'Lentes de Retrovisores',
-      description: 'Lentes de reposição com diversas opções de cores e acabamentos para personalizar seu veículo.',
+      description: 'Lentes e subconjuntos de reposição originais para o seu veículo.',
       categories: ['Todos', 'Lentes'],
       imagePlaceholder: '/images/product2.png' // Caminho placeholder
     },
     {
       id: 3,
       title: 'Capas de Retrovisores',
-      description: 'Capas de reposição para proteção e estética, disponíveis em diferentes cores e acabamentos.',
+      description: 'Capas de reposição para proteção e estética, disponíveis em diferentes cores e acabamentos mediante pintura.',
       categories: ['Todos', 'Capas'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product3.png' // Caminho placeholder
     },
     {
       id: 4,
       title: 'Retrovisores Elétricos',
-      description: 'Retrovisores com ajuste elétrico para maior conforto e praticidade no dia a dia.',
+      description: 'Intalação de ajuste elétrico para maior conforto e praticidade no dia a dia.',
       categories: ['Todos', 'Retrovisores', 'Elétricos'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product4.png' // Caminho placeholder
     },
     {
       id: 5,
       title: 'Retrovisores Térmicos',
-      description: 'Retrovisores com sistema de desembaçamento térmico para maior segurança em dias frios e chuvosos.',
+      description: 'Retrovisores e lentes com sistema de desembaçamento térmico para maior segurança em dias frios e chuvosos.',
       categories: ['Todos', 'Retrovisores', 'Térmicos'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product5.png' // Caminho placeholder
     },
     {
       id: 6,
       title: 'Retrovisores Rebatíveis',
-      description: 'Retrovisores com sistema de rebatimento para proteção em estacionamentos apertados.',
+      description: 'Intalação e reparo de sistema de rebatimento para proteção em estacionamentos apertados.',
       categories: ['Todos', 'Retrovisores', 'Rebatíveis'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product6.png' // Caminho placeholder
     },
     {
       id: 7,
       title: 'Lentes Convexas',
       description: 'Lentes especiais que ampliam o campo de visão, reduzindo pontos cegos.',
       categories: ['Todos', 'Lentes', 'Especiais'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product7.png' // Caminho placeholder
     },
     {
       id: 8,
-      title: 'Lentes Coloridas',
-      description: 'Lentes em diversas cores para personalização do seu veículo.',
+      title: 'Setas no retrovisor',
+      description: 'Setas integradas ao retrovisor, reposição original para o seu seu veículo.',
       categories: ['Todos', 'Lentes', 'Coloridas'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product8.png' // Caminho placeholder
     },
     {
       id: 9,
-      title: 'Suportes de Retrovisores',
-      description: 'Peças de fixação e suporte para diversos modelos de retrovisores.',
+      title: 'Peças de Reposição',
+      description: 'Peças de reposição e mão de obra para diversos modelos de retrovisores.',
       categories: ['Todos', 'Peças'],
-      imagePlaceholder: '/images/placeholder-produto.png' // Caminho placeholder
+      imagePlaceholder: '/images/product9.png' // Caminho placeholder
     }
   ];
 
