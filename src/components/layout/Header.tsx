@@ -27,7 +27,7 @@ const Header: React.FC = () => {
               Início
             </Link>
             <Link to="/servicos" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
-              Serviços em BH
+              Serviços
             </Link>
             <Link to="/produtos" className="text-white text-xl font-semibold hover:text-gray-200 transition duration-300">
               Produtos
