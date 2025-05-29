@@ -1,9 +1,9 @@
 # robots.txt para Espaço Automotivo
+
 User-agent: *
-Allow: /
 Disallow: /admin/
 Disallow: /temp/
 Disallow: /private/
+Allow: /
 
-# Permitir acesso ao sitemap
 Sitemap: https://espacoautomotivo.vercel.app/sitemap.xml
