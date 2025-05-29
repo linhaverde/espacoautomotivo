@@ -1,13 +1,12 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import 'react-lazy-load-image-component/build/blur.css'; // ✅ CORRIGIDO
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { motion } from 'framer-motion';
 
 const HeroSection: React.FC = () => {
-  // Dados dos slides com imagens
   const slides = [
     {
       id: 1,
@@ -60,7 +59,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative" aria-label="Destaques do Espaço Automotivo em Belo Horizonte">
       <Slider {...settings}>
-        {slides.map((slide, index) => (
+        {slides.map((slide) => (
           <div key={slide.id}>
             <div 
               className="relative h-[500px] bg-gray-900"
@@ -74,7 +73,6 @@ const HeroSection: React.FC = () => {
                 wrapperClassName="absolute inset-0"
                 threshold={100}
               />
-              {/* Overlay escuro para melhorar a legibilidade do texto */}
               <div className="absolute inset-0 bg-black opacity-50" aria-hidden="true"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center px-4">
