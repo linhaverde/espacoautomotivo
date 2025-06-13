@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           <img src="/images/logo.png" alt="Espaço Automotivo Retrovisores Belo Horizonte" className="h-10" />
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-light text-2xl font-bold">Espaço Automotivo</span>
+              <span className="text-light text-2xl font-bold"></span>
               <span className="text-light text-base ml-2">Retrovisores BH</span>
             </Link>
           </div>
