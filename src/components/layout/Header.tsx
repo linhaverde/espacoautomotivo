@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-light text-2xl font-bold"></span>
-              <span className="text-light text-base ml-2">Retrovisores BH</span>
+              <span className="text-light text-2xl font-bold">Retrovisores BH</span>
             </Link>
           </div>
 
