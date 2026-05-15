@@ -49,7 +49,7 @@ const WhyChooseUs: React.FC = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-dark mb-4">Por Que Escolher o Espaço Automotivo em Belo Horizonte</h2>
+          <h2 className="text-3xl font-bold text-gray-dark mb-4">Por Que Escolher o Espaço Retrovisores em Belo Horizonte</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Somos especialistas em retrovisores veiculares na região de Belo Horizonte, oferecendo o melhor em produtos e serviços para nossos clientes da Cidade Nova e toda a região metropolitana.

@@ -8,21 +8,21 @@ const AboutPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-light">
       <SEO 
-        title="Sobre o Espaço Automotivo | Especialistas em Retrovisores em BH"
-        description="Conheça a história do Espaço Automotivo, referência em retrovisores veiculares em Belo Horizonte. Anos de experiência e compromisso com a qualidade."
-        keywords="Espaço Automotivo, história, empresa de retrovisores, Belo Horizonte, Cidade Nova, missão, visão, valores"
-        ogUrl="https://espacoautomotivo.vercel.app/sobre"
-        canonical="https://espacoautomotivo.vercel.app/sobre"
+        title="Sobre o Espaço Retrovisores | Especialistas em Retrovisores em BH"
+        description="Conheça a história do Espaço Retrovisores, referência em retrovisores veiculares em Belo Horizonte. 15 anos de experiência e compromisso com a qualidade."
+        keywords="Espaço Retrovisores, história, empresa de retrovisores, Belo Horizonte, Cidade Nova, missão, visão, valores"
+        ogUrl="https://espacoretrovisores.vercel.app/sobre"
+        canonical="https://espacoretrovisores.vercel.app/sobre"
       />
       <Header />
       <main className="flex-grow" id="main-content">
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-gray-dark mb-4">Sobre o Espaço Automotivo - Especialistas em Retrovisores em Belo Horizonte</h1>
+              <h1 className="text-4xl font-bold text-gray-dark mb-4">Sobre o Espaço Retrovisores - Especialistas em Retrovisores em Belo Horizonte</h1>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Conheça a história e a qualidade do Espaço Automotivo Retrovisores
+                Conheça a história e a qualidade do Espaço Retrovisores
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const AboutPage: React.FC = () => {
               >
                 <h2 className="text-2xl font-bold text-gray-dark mb-4">Nossa História na Cidade Nova, Belo Horizonte</h2>
                 <p className="text-gray-600 mb-4">
-                  O Espaço Automotivo Retrovisores nasceu da paixão por oferecer soluções de qualidade para retrovisores veiculares. Há anos no mercado, nos especializamos em fornecer produtos e serviços que atendem às necessidades dos nossos clientes com excelência.
+                  O Espaço Retrovisores nasceu da paixão por oferecer soluções de qualidade para retrovisores veiculares. Há 15 anos no mercado, nos especializamos exclusivamente em retrovisores e espelhos automotivos, atendendo todas as marcas com excelência.
                 </p>
                 <p className="text-gray-600 mb-4">
                   Começamos como uma pequena loja e, com dedicação e compromisso com a qualidade, nos tornamos referência no segmento de retrovisores na região de Belo Horizonte.
@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
                 className="bg-gray-200 h-80 rounded-lg flex items-center justify-center"
               >
                 <div className="text-center p-4">
-                <img src="/images/loja.jpg" alt="Fachada da Loja Espaço Automotivo" className="max-h-full max-w-full object-contain rounded-lg"/>
+                <img src="/images/loja.jpg" alt="Fachada da Loja Espaço Retrovisores" className="max-h-full max-w-full object-contain rounded-lg"/>
                 </div>
               </motion.div>
             </div>

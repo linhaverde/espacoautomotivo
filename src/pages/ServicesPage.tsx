@@ -72,11 +72,11 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-light">
       <SEO 
-        title="Serviços de Retrovisores | Espaço Automotivo em Belo Horizonte"
+        title="Serviços de Retrovisores | Espaço Retrovisores em Belo Horizonte"
         description="Serviços especializados em retrovisores veiculares em Belo Horizonte: troca, reparo, substituição de lentes, pintura e instalação de retrovisores elétricos."
         keywords="serviços de retrovisores, troca de retrovisores, reparo de retrovisores, Belo Horizonte, Cidade Nova, retrovisores elétricos"
-        ogUrl="https://espacoautomotivo.vercel.app/servicos"
-        canonical="https://espacoautomotivo.vercel.app/servicos"
+        ogUrl="https://espacoretrovisores.vercel.app/servicos"
+        canonical="https://espacoretrovisores.vercel.app/servicos"
       />
       <Header />
       <main className="flex-grow" id="main-content">

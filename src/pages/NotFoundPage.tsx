@@ -6,8 +6,8 @@ const NotFoundPage: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Página não encontrada | Espaço Automotivo"
-        description="A página que você está procurando não foi encontrada. Volte para a página inicial do Espaço Automotivo em Belo Horizonte."
+        title="Página não encontrada | Espaço Retrovisores"
+        description="A página que você está procurando não foi encontrada. Volte para a página inicial do Espaço Retrovisores em Belo Horizonte."
       />
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="text-center p-8 bg-white rounded-lg shadow-md max-w-md">

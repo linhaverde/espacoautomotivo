@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
 
           {/* Sobre a Empresa */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Espaço Automotivo Retrovisores em Belo Horizonte</h3>
+            <h3 className="text-xl font-bold mb-4">Espaço Retrovisores em Belo Horizonte</h3>
             <p className="mb-4">
               Especialistas em retrovisores veiculares em Belo Horizonte, oferecendo serviços de manutenção e venda de peças com qualidade e compromisso para toda a região metropolitana.
             </p>
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Espaço Automotivo Retrovisores - Belo Horizonte. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Espaço Retrovisores - Belo Horizonte. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

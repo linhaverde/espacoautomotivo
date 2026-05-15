@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative" aria-label="Destaques do Espaço Automotivo em Belo Horizonte">
+    <section className="relative" aria-label="Destaques do Espaço Retrovisores em Belo Horizonte">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={slide.id}>

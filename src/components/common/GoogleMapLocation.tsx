@@ -12,8 +12,8 @@ const GoogleMapLocation: React.FC = () => {
           style={{ border: 0 }}
           allowFullScreen={true}
           loading="lazy"
-          title="Localização do Espaço Automotivo em Belo Horizonte"
-          aria-label="Mapa mostrando a localização do Espaço Automotivo na Av. Cristiano Machado, Cidade Nova, Belo Horizonte"
+          title="Localização do Espaço Retrovisores em Belo Horizonte"
+          aria-label="Mapa mostrando a localização do Espaço Retrovisores na Av. Cristiano Machado, Cidade Nova, Belo Horizonte"
         ></iframe>
       </div>
       <div className="mt-4 flex justify-center">
@@ -22,7 +22,7 @@ const GoogleMapLocation: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded transition duration-300"
-          aria-label="Obter direções para o Espaço Automotivo no Google Maps"
+          aria-label="Obter direções para o Espaço Retrovisores no Google Maps"
         >
           Como Chegar
         </a>

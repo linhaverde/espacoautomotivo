@@ -33,7 +33,7 @@ const GoogleReviewsWidget: React.FC = () => {
         target="_blank" 
         rel="noopener noreferrer"
         className="inline-block bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded transition duration-300"
-        aria-label="Avaliar o Espaço Automotivo no Google"
+        aria-label="Avaliar o Espaço Retrovisores no Google"
       >
         Avaliar no Google
       </a>

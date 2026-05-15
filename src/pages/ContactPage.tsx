@@ -8,18 +8,18 @@ const ContactPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-light">
       <SEO 
-        title="Contato | Espaço Automotivo em Belo Horizonte"
-        description="Entre em contato com o Espaço Automotivo em Belo Horizonte. Orçamentos, dúvidas e agendamentos para serviços de retrovisores veiculares na região."
-        keywords="contato, orçamento retrovisores, Espaço Automotivo, Belo Horizonte, Cidade Nova, telefone, endereço"
-        ogUrl="https://espacoautomotivo.vercel.app/contato"
-        canonical="https://espacoautomotivo.vercel.app/contato"
+        title="Contato | Espaço Retrovisores em Belo Horizonte"
+        description="Entre em contato com o Espaço Retrovisores em Belo Horizonte. Orçamentos, dúvidas e agendamentos para serviços de retrovisores veiculares na região."
+        keywords="contato, orçamento retrovisores, Espaço Retrovisores, Belo Horizonte, Cidade Nova, telefone, endereço"
+        ogUrl="https://espacoretrovisores.vercel.app/contato"
+        canonical="https://espacoretrovisores.vercel.app/contato"
       />
       <Header />
       <main className="flex-grow" id="main-content">
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-gray-dark mb-4">Contato - Espaço Automotivo em Belo Horizonte</h1>
+              <h1 className="text-4xl font-bold text-gray-dark mb-4">Contato - Espaço Retrovisores em Belo Horizonte</h1>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Entre em contato conosco e descubra como podemos ajudar com seus retrovisores veiculares na região de Belo Horizonte.
@@ -166,7 +166,7 @@ const ContactPage: React.FC = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-dark mb-3">Como Chegar ao Espaço Automotivo</h3>
+                <h3 className="text-xl font-bold text-gray-dark mb-3">Como Chegar ao Espaço Retrovisores</h3>
                 <p className="text-gray-600 mb-4">
                   Estamos localizados em um ponto de fácil acesso na Av. Cristiano Machado, 2650, no bairro Cidade Nova em Belo Horizonte.
                 </p>

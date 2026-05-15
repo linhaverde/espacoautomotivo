@@ -81,11 +81,11 @@ const ProductsPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-light">
       <SEO 
-        title="Produtos para Retrovisores | Espaço Automotivo em Belo Horizonte"
+        title="Produtos para Retrovisores | Espaço Retrovisores em Belo Horizonte"
         description="Ampla variedade de retrovisores e peças de reposição para todos os modelos de veículos em Belo Horizonte. Retrovisores completos, lentes, capas e sistemas elétricos."
         keywords="retrovisores veiculares, lentes de retrovisores, capas de retrovisores, retrovisores elétricos, Belo Horizonte, Cidade Nova"
-        ogUrl="https://espacoautomotivo.vercel.app/produtos"
-        canonical="https://espacoautomotivo.vercel.app/produtos"
+        ogUrl="https://espacoretrovisores.vercel.app/produtos"
+        canonical="https://espacoretrovisores.vercel.app/produtos"
       />
       <Header />
       <main className="flex-grow" id="main-content">
