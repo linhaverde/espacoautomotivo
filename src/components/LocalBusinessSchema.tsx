@@ -38,7 +38,7 @@ const LocalBusinessSchema: React.FC = () => {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Saturday",
-        "opens": "08:00",
+        "opens": "08:30",
         "closes": "14:00"
       }
     ],

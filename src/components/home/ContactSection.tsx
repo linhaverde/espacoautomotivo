@@ -49,7 +49,7 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h4 className="font-bold text-gray-dark">Horário de Funcionamento</h4>
                   <p className="text-gray-600">Segunda a Sexta: 8h:30 às 18h</p>
-                  <p className="text-gray-600">Sábado: 8h:30 às 12h</p>
+                  <p className="text-gray-600">Sábado: 8h:30 às 14h</p>
                 </div>
               </div>
               <div className="mt-4">

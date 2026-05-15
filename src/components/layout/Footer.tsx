@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               <span className="font-bold">Endereço:</span> Av. Cristiano Machado, 2650, Cidade Nova - Belo Horizonte/MG
             </p>
             <p className="mb-2">
-              <span className="font-bold">Horário:</span> Segunda a Sexta: 8:30h às 18h | Sábado: 8h:30 às 12h
+              <span className="font-bold">Horário:</span> Segunda a Sexta: 8:30h às 18h | Sábado: 8h:30 às 14h
             </p>
           </div>
 

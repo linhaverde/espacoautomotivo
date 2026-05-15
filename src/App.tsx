@@ -5,6 +5,7 @@ import LocalBusinessSchema from './components/LocalBusinessSchema';
 
 // Importação normal para componentes críticos
 import LoadingSpinner from './components/common/LoadingSpinner';
+import FloatingWhatsApp from './components/common/FloatingWhatsApp';
 
 // Lazy loading para páginas não críticas
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -19,6 +20,7 @@ function App() {
     <HelmetProvider>
       <LocalBusinessSchema />
       <Router>
+        <FloatingWhatsApp />
         <Suspense fallback={<LoadingSpinner />}>
           <Routes>
             <Route path="/" element={<HomePage />} />

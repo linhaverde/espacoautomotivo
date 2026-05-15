@@ -32,15 +32,15 @@ const AboutPage: React.FC = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h2 className="text-2xl font-bold text-gray-dark mb-4">Nossa História na Cidade Nova, Belo Horizonte</h2>
+                <h2 className="text-2xl font-bold text-gray-dark mb-4">15 Anos na Cidade Nova, Belo Horizonte</h2>
                 <p className="text-gray-600 mb-4">
-                  O Espaço Retrovisores nasceu da paixão por oferecer soluções de qualidade para retrovisores veiculares. Há 15 anos no mercado, nos especializamos exclusivamente em retrovisores e espelhos automotivos, atendendo todas as marcas com excelência.
+                  O Espaço Retrovisores é um negócio familiar especializado <strong>exclusivamente</strong> em retrovisores e espelhos automotivos há mais de 15 anos. Não somos uma oficina geral que também faz retrovisor — somos especialistas que só fazem isso.
                 </p>
                 <p className="text-gray-600 mb-4">
-                  Começamos como uma pequena loja e, com dedicação e compromisso com a qualidade, nos tornamos referência no segmento de retrovisores na região de Belo Horizonte.
+                  Essa escolha tem um motivo: profundidade técnica. Ao longo de 15 anos consertando e trocando retrovisores de todas as marcas, desenvolvemos um conhecimento que um generalista simplesmente não tem. Peças que parecem sem conserto, sistemas elétricos complexos, modelos importados — já vimos de tudo.
                 </p>
                 <p className="text-gray-600">
-                  Nossa equipe é formada por profissionais experientes e capacitados, sempre prontos para oferecer o melhor atendimento e as melhores soluções para nossos clientes.
+                  Atendemos diretamente no veículo quando possível, sem burocracia, com orçamento transparente e sem surpresas na hora de pagar. Porque aqui você fala com a família que coloca o nome no serviço.
                 </p>
               </motion.div>
 
@@ -61,7 +61,7 @@ const AboutPage: React.FC = () => {
         <section className="py-16 bg-gray-light">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-dark mb-4">Nossa Missão e Valores</h2>
+              <h2 className="text-3xl font-bold text-gray-dark mb-4">O Que Nos Diferencia</h2>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
             </div>
 
@@ -72,9 +72,10 @@ const AboutPage: React.FC = () => {
                 transition={{ duration: 0.5 }}
                 className="bg-white p-6 rounded-lg shadow-md"
               >
-                <h3 className="text-xl font-bold text-gray-dark mb-3">Missão</h3>
+                <div className="text-4xl mb-3">🔧</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-3">Só Retrovisores</h3>
                 <p className="text-gray-600">
-                  Oferecer produtos e serviços de alta qualidade para retrovisores veiculares, garantindo a satisfação e segurança dos nossos clientes em Belo Horizonte e região.
+                  Enquanto outras oficinas fazem de tudo, nós nos dedicamos exclusivamente a retrovisores. Isso significa que quando você chega com um problema difícil, já vimos antes — e sabemos resolver.
                 </p>
               </motion.div>
 
@@ -84,9 +85,10 @@ const AboutPage: React.FC = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="bg-white p-6 rounded-lg shadow-md"
               >
-                <h3 className="text-xl font-bold text-gray-dark mb-3">Visão</h3>
+                <div className="text-4xl mb-3">🚗</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-3">Sem Sair do Carro</h3>
                 <p className="text-gray-600">
-                  Ser reconhecida como a melhor empresa de retrovisores veiculares de Belo Horizonte, expandindo nossa atuação e mantendo o compromisso com a qualidade.
+                  Na maioria dos atendimentos você nem precisa descer do veículo. O serviço é feito no local, com agilidade. Clientes relatam que o retrovisor foi trocado enquanto esperavam no carro.
                 </p>
               </motion.div>
 
@@ -96,9 +98,10 @@ const AboutPage: React.FC = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
                 className="bg-white p-6 rounded-lg shadow-md"
               >
-                <h3 className="text-xl font-bold text-gray-dark mb-3">Valores</h3>
+                <div className="text-4xl mb-3">🤝</div>
+                <h3 className="text-xl font-bold text-gray-dark mb-3">Família que Responde</h3>
                 <p className="text-gray-600">
-                  Comprometimento, honestidade, qualidade, respeito ao cliente e busca constante por inovação e melhoria nos nossos produtos e serviços.
+                  Negócio familiar onde você fala diretamente com quem executa o serviço. Orçamento honesto, sem empurrar peça desnecessária. Se tem conserto mais barato, a gente fala.
                 </p>
               </motion.div>
             </div>
@@ -130,7 +133,7 @@ const AboutPage: React.FC = () => {
                   <div className="mb-4 md:mb-0">
                     <h4 className="font-bold text-gray-dark mb-2">Horário de Funcionamento:</h4>
                     <p className="text-gray-600">Segunda a Sexta: 8h às 18h</p>
-                    <p className="text-gray-600">Sábado: 8h às 12h</p>
+                    <p className="text-gray-600">Sábado: 8h às 14h</p>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-dark mb-2">Contato:</h4>
