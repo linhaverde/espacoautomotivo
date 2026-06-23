@@ -119,10 +119,17 @@ const AboutPage: React.FC = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-[400px] bg-gray-300">
-                <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-gray-600">Mapa de localização</p>
-                </div>
+              <div className="h-[400px]">
+                <iframe
+                  title="Localização do Espaço Retrovisores na Av. Cristiano Machado, Cidade Nova, Belo Horizonte"
+                  src="https://www.google.com/maps?q=-19.883209,-43.929705&z=16&hl=pt-BR&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-dark mb-3">Como Chegar</h3>
