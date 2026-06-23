@@ -8,7 +8,7 @@ const LocalBusinessSchema: React.FC = () => {
     "name": "Espaço Retrovisores - Especialista em BH",
     "image": "https://espacoretrovisores.vercel.app/images/logo.png",
     "url": "https://espacoretrovisores.vercel.app",
-    "telephone": "(31) 3486-8347",
+    "telephone": "+55-31-3486-8347",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Av. Cristiano Machado, 2650",
@@ -19,8 +19,8 @@ const LocalBusinessSchema: React.FC = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -19.9167,
-      "longitude": -43.9345
+      "latitude": -19.883209,
+      "longitude": -43.929705
     },
     "openingHoursSpecification": [
       {
@@ -32,7 +32,7 @@ const LocalBusinessSchema: React.FC = () => {
           "Thursday",
           "Friday"
         ],
-        "opens": "08:00",
+        "opens": "08:30",
         "closes": "18:00"
       },
       {
@@ -43,8 +43,8 @@ const LocalBusinessSchema: React.FC = () => {
       }
     ],
     "sameAs": [
-      "https://www.facebook.com/espacoautomotivo",
-      "https://www.instagram.com/espacoautomotivo"
+      "https://www.facebook.com/espacoautomotivobh/",
+      "https://www.instagram.com/espacoautomotivobhmg/"
     ]
   };
 

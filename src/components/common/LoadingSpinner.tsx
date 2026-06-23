@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 // Componente de spinner de carregamento
 const LoadingSpinner: React.FC = () => {

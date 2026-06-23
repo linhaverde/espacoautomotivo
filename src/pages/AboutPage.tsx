@@ -132,8 +132,8 @@ const AboutPage: React.FC = () => {
                 <div className="flex flex-col md:flex-row md:space-x-4">
                   <div className="mb-4 md:mb-0">
                     <h4 className="font-bold text-gray-dark mb-2">Horário de Funcionamento:</h4>
-                    <p className="text-gray-600">Segunda a Sexta: 8h às 18h</p>
-                    <p className="text-gray-600">Sábado: 8h às 14h</p>
+                    <p className="text-gray-600">Segunda a Sexta: 8h30 às 18h</p>
+                    <p className="text-gray-600">Sábado: 8h30 às 14h</p>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-dark mb-2">Contato:</h4>
