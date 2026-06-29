@@ -14,8 +14,8 @@ const HomePage: React.FC = () => {
         title="Espaço Retrovisores - Especialista em BH | Especialistas em Retrovisores Veiculares em Belo Horizonte"
         description="Especialistas em retrovisores veiculares em Belo Horizonte. Venda, manutenção e reparo de retrovisores para todos os modelos de veículos com qualidade e compromisso."
         keywords="retrovisores, retrovisores veiculares, conserto de retrovisores, Belo Horizonte, Cidade Nova, espelhos automotivos, manutenção de retrovisores"
-        ogUrl="https://espacoretrovisores.vercel.app/"
-        canonical="https://espacoretrovisores.vercel.app/"
+        ogUrl="https://espacoretrovisores.com.br/"
+        canonical="https://espacoretrovisores.com.br/"
       />
       <Header />
       <main className="flex-grow" id="main-content">

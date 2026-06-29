@@ -75,8 +75,8 @@ const ServicesPage: React.FC = () => {
         title="Serviços de Retrovisores | Espaço Retrovisores em Belo Horizonte"
         description="Serviços especializados em retrovisores veiculares em Belo Horizonte: troca, reparo, substituição de lentes, pintura e instalação de retrovisores elétricos."
         keywords="serviços de retrovisores, troca de retrovisores, reparo de retrovisores, Belo Horizonte, Cidade Nova, retrovisores elétricos"
-        ogUrl="https://espacoretrovisores.vercel.app/servicos"
-        canonical="https://espacoretrovisores.vercel.app/servicos"
+        ogUrl="https://espacoretrovisores.com.br/servicos"
+        canonical="https://espacoretrovisores.com.br/servicos"
       />
       <Header />
       <main className="flex-grow" id="main-content">

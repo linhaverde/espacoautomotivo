@@ -6,8 +6,8 @@ const LocalBusinessSchema: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "AutoPartsStore",
     "name": "Espaço Retrovisores - Especialista em BH",
-    "image": "https://espacoretrovisores.vercel.app/images/logo.png",
-    "url": "https://espacoretrovisores.vercel.app",
+    "image": "https://espacoretrovisores.com.br/images/logo.png",
+    "url": "https://espacoretrovisores.com.br",
     "telephone": "+55-31-3486-8347",
     "address": {
       "@type": "PostalAddress",

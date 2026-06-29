@@ -11,8 +11,8 @@ const AboutPage: React.FC = () => {
         title="Sobre o Espaço Retrovisores | Especialistas em Retrovisores em BH"
         description="Conheça a história do Espaço Retrovisores, referência em retrovisores veiculares em Belo Horizonte. 15 anos de experiência e compromisso com a qualidade."
         keywords="Espaço Retrovisores, história, empresa de retrovisores, Belo Horizonte, Cidade Nova, missão, visão, valores"
-        ogUrl="https://espacoretrovisores.vercel.app/sobre"
-        canonical="https://espacoretrovisores.vercel.app/sobre"
+        ogUrl="https://espacoretrovisores.com.br/sobre"
+        canonical="https://espacoretrovisores.com.br/sobre"
       />
       <Header />
       <main className="flex-grow" id="main-content">

@@ -12,8 +12,8 @@ const ContactPage: React.FC = () => {
         title="Contato | Espaço Retrovisores em Belo Horizonte"
         description="Entre em contato com o Espaço Retrovisores em Belo Horizonte. Orçamentos, dúvidas e agendamentos para serviços de retrovisores veiculares na região."
         keywords="contato, orçamento retrovisores, Espaço Retrovisores, Belo Horizonte, Cidade Nova, telefone, endereço"
-        ogUrl="https://espacoretrovisores.vercel.app/contato"
-        canonical="https://espacoretrovisores.vercel.app/contato"
+        ogUrl="https://espacoretrovisores.com.br/contato"
+        canonical="https://espacoretrovisores.com.br/contato"
       />
       <Header />
       <main className="flex-grow" id="main-content">

@@ -6,7 +6,7 @@
 
   <!-- Página Inicial -->
   <url>
-    <loc>https://espacoretrovisores.vercel.app/</loc>
+    <loc>https://espacoretrovisores.com.br/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- Página de Serviços -->
   <url>
-    <loc>https://espacoretrovisores.vercel.app/servicos</loc>
+    <loc>https://espacoretrovisores.com.br/servicos</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
   <!-- Página de Produtos -->
   <url>
-    <loc>https://espacoretrovisores.vercel.app/produtos</loc>
+    <loc>https://espacoretrovisores.com.br/produtos</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -30,7 +30,7 @@
 
   <!-- Página Sobre Nós -->
   <url>
-    <loc>https://espacoretrovisores.vercel.app/sobre</loc>
+    <loc>https://espacoretrovisores.com.br/sobre</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -38,7 +38,7 @@
 
   <!-- Página de Contato -->
   <url>
-    <loc>https://espacoretrovisores.vercel.app/contato</loc>
+    <loc>https://espacoretrovisores.com.br/contato</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

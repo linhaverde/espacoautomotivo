@@ -6,4 +6,4 @@ Disallow: /temp/
 Disallow: /private/
 
 # Permitir acesso ao sitemap
-Sitemap: https://espacoretrovisores.vercel.app/sitemap.xml
+Sitemap: https://espacoretrovisores.com.br/sitemap.xml
