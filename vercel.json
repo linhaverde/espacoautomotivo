@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "espacoretrovisores.vercel.app" }],
+      "destination": "https://espacoretrovisores.com.br/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "espacoautomotivo.vercel.app" }],
+      "destination": "https://espacoretrovisores.com.br/:path*",
+      "permanent": true
+    }
+  ]
+}
