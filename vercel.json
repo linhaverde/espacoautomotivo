@@ -2,14 +2,35 @@
   "redirects": [
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "espacoretrovisores.vercel.app" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "espacoretrovisores.vercel.app"
+        }
+      ],
       "destination": "https://espacoretrovisores.com.br/:path*",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "espacoautomotivo.vercel.app" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "espacoautomotivo.vercel.app"
+        }
+      ],
       "destination": "https://espacoretrovisores.com.br/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.espacoretrovisores.com.br"
+        }
+      ],
+      "destination": "https://espacoretrovisores.com.br/:path",
       "permanent": true
     }
   ]
